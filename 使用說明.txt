@@ -1,4 +1,6 @@
 要啟動網站請點擊start.bat
+之後打開瀏覽器於網址列輸入localhost:80
+就可以開始看考題了!
 看完要關閉的時候請點擊stop.bat
 如果考題發現答案有錯
 請到html/OCEJWCD/1Z0-899內
