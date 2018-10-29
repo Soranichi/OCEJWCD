@@ -1,0 +1,12 @@
+{
+  "answer": "C",
+  "explanation": "每個ServletContextListener的contextInitialized以其在部署描述檔中宣告的順序執行，contextDestroyed則是以相反順序執行",
+  "question": "ServletContextListeners are invoked in",
+  "options": {
+    "A": "Random order",
+    "B": "contextInitialized and contextDestroyed are invoked in the order in which they are declared in the web.xml",
+    "C": "contextInitialized method are invoked in the order in which they are declared in the web.xml and the contextDestroyed method is invoked in the reverse order in which they are declared in the web.xml",
+    "D": "contextInitialized and contextDestroyed are invoked in the reverse order of which they are declared in the web.xml"
+  },
+  "multi": false
+}

@@ -1,0 +1,12 @@
+{
+  "answer": "D",
+  "explanation": "這題網路上很多人都說是C...但題目說是在實作model component時可能會拋出IOException，而C是在展示層(JSP)才能使用，所以應該是要使用try-catch區塊來處理例外錯誤",
+  "question": "You are implementing a model component. You realize that an IOException might arise if you lose connection to the database. How should you address this?",
+  "options": {
+    "A": "Implement multipathing to provide redundant connectivity to the database, thereby avoiding that risk of connection failure.",
+    "C": "Use the JSTL <c:catch> tag to take control if the exception arises.",
+    "B": "Provide an error handler page, and use the page directive in the invoking JSP to redirect to that page if the error arises.",
+    "D": "Surround the problem area with a try/catch block and implement appropriate recovery or fallback behavior."
+  },
+  "multi": false
+}

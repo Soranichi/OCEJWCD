@@ -1,0 +1,13 @@
+2018/10/29 21:49:49 [error] 4136#8840: *1 CreateFile() "D:\VSCode\nginx-1.14.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2018/10/29 22:31:37 [notice] 5392#1332: signal process started
+2018/10/29 22:34:24 [notice] 5560#8252: signal process started
+2018/10/29 22:34:24 [error] 5560#8252: CreateFile() "D:\VSCode\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/29 22:34:36 [notice] 5428#3620: signal process started
+2018/10/29 22:34:36 [error] 5428#3620: CreateFile() "D:\VSCode\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/29 22:35:20 [notice] 7876#2516: signal process started
+2018/10/29 22:35:20 [error] 7876#2516: CreateFile() "D:\VSCode\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/29 22:36:31 [notice] 10072#8264: signal process started
+2018/10/29 22:36:31 [error] 10072#8264: CreateFile() "D:\VSCode\nginx-1.14.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2018/10/29 22:37:50 [notice] 3840#5932: signal process started
+2018/10/29 22:41:27 [notice] 9632#7544: signal process started
+2018/10/29 22:44:49 [notice] 3096#7184: signal process started

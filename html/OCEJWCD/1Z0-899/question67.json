@@ -1,0 +1,13 @@
+{
+  "answer": "A",
+  "explanation": "要在JSP中使用exception隱藏變數取得錯誤相關資訊，需在該頁面宣告<%@ page isErrorPage=\"true\" %>",
+  "question": "You are working on a JSP that is intended to inform users about critical errors in the system. The JSP code is attempting to access the exception that represents the cause of the problem, but your IDE is telling you that the variable does not exist. What should you do to address this problem?",
+  "options": {
+    "A": "Add a page directive stating that this page is an error handler",
+    "B": "Add scriptlet code to create a variable that refer to the exception",
+    "C": "Add a <jsp:useBean tag to declare the and access the exception>",
+    "D": "Perform the error handling in a servlet rather than in the JSP",
+    "E": "Edit the page that caused the error to ensure that it specifies this page as its error handler"
+  },
+  "multi": false
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "D",
+  "explanation": "根據API對於ServletRegistration.Dynamic的setServletSecurity方法的說明，此方法適用於所有加到此ServletRegistration的mapping，直到ServletContext初始化完成。",
+  "question": "Given the java code snippet in contextInitialized method of a ServletContextListner:\n\nServletRegistration.Dynamic sr = (ServletRegistration.Dynamic) sc.addServlet(\"myServlet\", myServletClass);\nsr.addMapping(\"/abc\");\nsr.setServletSecurityElement(servletSecurityElement);\nsr.addMapping(\"/def\");\n\nWhich statement is true?",
+  "options": {
+    "A": "\"/abc\" is mapped to \"myservlet\". The servletSecurityElementy applies to both \"/abc\" and \"/def\".",
+    "B": "Both \"/abc\" and \"/def\" are mapped to \"myservlet\". The servletSecurityElementy applies to \"/abc\".",
+    "C": "Both \"/abc\" and \"/def\" are mapped to \"myservlet\". The servletSecurityElementy applies to \"/def\".",
+    "D": "Both \"/abc\" and \"/def\" are mapped to \"myservlet\". The servletSecurityElementy applies to both \"/abc\" and \"/def\".",
+    "E": "Both \"/abc\" and \"/def\" are mapped to \"myservlet\". The servletSecurityElementy applies to \"/abc\", but the behavior for \"/def\" is not specified."
+  },
+  "multi": false
+}

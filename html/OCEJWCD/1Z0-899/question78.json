@@ -1,0 +1,14 @@
+{
+  "answer": "AD",
+  "explanation": "由題目可知該Servlet在注入JDBC Data Source後要利用資料庫的一些資料建立快取來提高回應速度，這動作只會執行一次，因此可以在Servlet的init方法，或是將某個方法以@PostConstruct標註來達成。\n被@PostConstruct標註的方法會在建構子和init方法之間執行，只會被執行一次，類似init方法。",
+  "question": "A servlet class is injected with a JDBC data source. After injection has occurred, the servlet needs to create a cache out of some of the data in the database, so as to improve responsiveness. Which two methods can host the cache creation code? (Choose two)",
+  "options": {
+    "A": "Servlet.init()",
+    "B": "Servlet.destroy()",
+    "C": "A method annotated with @Init",
+    "D": "A method annotated with @PostConstruct",
+    "E": "A method annotated with @PreDestroy",
+    "F": "A method annotated with @Resource"
+  },
+  "multi": true
+}

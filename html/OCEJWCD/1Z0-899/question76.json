@@ -1,0 +1,13 @@
+{
+  "answer": "ADE",
+  "explanation": "根據API，addServlet方法有三種版本\n1.addServlet(String servletName, Class<? extends Servlet> servletClass)\n2.addServlet(String servletName, Servlet servlet)\n3.addServlet(String servletName, String className)",
+  "question": "To add a servlet to a context that has not been declared either via annotation or via the descriptor, during context initialization time the following API can be used (Choose three.)",
+  "options": {
+    "A": "servletContext.addServlet(\"myServletName\", \"MyServlet\");",
+    "B": "servletContext.addServlet((<Class extends Servlet>) getClass().getClassLoader().getClassLoader().loaderClass(\"MyServlet\"));",
+    "C": "servletContext.addServlet(myServlet);",
+    "D": "servletContext.addServlet(\"myServletName\", (<Class extends Servlet>) gerClass().getClassLoader().loaderClass(\"myServlet\"));",
+    "E": "servletContext.addServlet(\"myServletName\", MyServlet);"
+  },
+  "multi": true
+}

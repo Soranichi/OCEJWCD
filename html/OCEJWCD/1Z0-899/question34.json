@@ -1,0 +1,13 @@
+{
+  "answer": "B",
+  "explanation": "根據API，ServletSecurity.EmptyRoleSemantic有DENY及PERMIT兩個列舉值",
+  "question": "Which is a valid value for the enum EmptyRoleSemantic in Javax.servlet.annotation.ServletSecurity?",
+  "options": {
+    "A": "ADMIT",
+    "C": "EXCLUDE",
+    "B": "PERMIT",
+    "E": "ALLOWALL",
+    "D": "DENYALL"
+  },
+  "multi": false
+}

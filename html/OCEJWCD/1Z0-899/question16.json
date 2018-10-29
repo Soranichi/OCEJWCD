@@ -1,0 +1,12 @@
+{
+  "answer": "C",
+  "explanation": "根據規格書，getNamedDispatcher方法的參數是一個能被ServletContext找到的Servlet名稱，如果找得到該Servlet就包裝成RequestDispatcher物件並回傳，找不到則回傳null",
+  "question": "In ServletContext.getNamedDispatcher(String arg0) arg0 is the",
+  "options": {
+    "A": "url of a servlet relative to the ServletRequest",
+    "C": "name of a servlet",
+    "B": "url of a servlet relative to the Context",
+    "D": "absolute url to any servlet in any Context"
+  },
+  "multi": false
+}

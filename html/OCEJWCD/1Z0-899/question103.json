@@ -1,0 +1,13 @@
+{
+  "answer": "B",
+  "explanation": "本題是問web-fragment.xml要放在jar檔當中的哪個位置，因此要選擇META-INF",
+  "question": "Given a web fragment jar file, where should we put the web fragment.xml inside the jar file?",
+  "options": {
+    "A": "WEB-INF",
+    "B": "META-INF",
+    "C": "WEB-INF/lib",
+    "D": "WEB-INF/classes",
+    "E": "META-INF/services"
+  },
+  "multi": false
+}
